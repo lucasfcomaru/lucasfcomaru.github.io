@@ -60,3 +60,28 @@
         }
     }
 }
+
+/* Seção experiência */
+.background .experiencia {
+
+    .experiencia-container {
+        display: flex;
+        justify-content: space-evenly;
+
+        .experiencia-dados {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            
+
+            .dados-numero {
+                color: var(--cor-0);
+            }
+
+            .dados-texto {
+                color: var(--cor-1);
+                max-width: 120px;
+            }
+        }
+    }
+}

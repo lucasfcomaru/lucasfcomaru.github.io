@@ -28,4 +28,5 @@ img {
   /* declaração de uma cor de fundo
   caso a imagem não carregue */
   background: url('../../img/bg-sobre-min.jpg') no-repeat center/cover, var(--cor-bg-2);
+  padding-bottom: 120px;
 }
