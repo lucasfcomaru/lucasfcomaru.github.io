@@ -1,6 +1,5 @@
 /* Sobre */
-.sobre {
-    /* background-color: var(--cor-bg-2); */
+.sobre-bg {
 
     .sobre-container {
         display: grid;
@@ -62,7 +61,7 @@
 }
 
 /* Seção experiência */
-.background .experiencia {
+.container-bg .experiencia {
 
     .experiencia-container {
         display: flex;
