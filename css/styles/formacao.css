@@ -63,7 +63,7 @@
 
 .habilidade {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 20px;
     padding-bottom: 120px;
 
@@ -100,7 +100,6 @@
         transition: ease-in 0.3s;
 
         & img {
-            padding: 12px;
             filter: grayscale(1);
             transition: ease-in 0.2s;
         }
