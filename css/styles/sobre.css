@@ -1,6 +1,6 @@
 /* Sobre */
 .sobre {
-    background-color: var(--cor-bg-2);
+    /* background-color: var(--cor-bg-2); */
 
     .sobre-container {
         display: grid;
@@ -25,17 +25,38 @@
             .sobre-botoes {
                 display: flex;
                 justify-content: flex-start;
+                gap: 12px;
+                margin-top: 20px;
 
                 .botao img {
                     width: 26px;
                     height: 26px;
                 }
+
+                .sobre-redes {
+                    display: flex;
+                    gap: 12px;
+                }
             }
         }
 
-        .sobre-redes {
+        .sobre-imagem {
+            padding: 40px;
             display: flex;
-            gap: 12px;
+            align-items: start;
+
+            .imagem-lucas img {
+                border: 6px solid var(--cor-1);
+                border-radius: 16px;
+                transform: rotate(-5deg);
+                transition: transform ease-in 0.3s;
+                box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
+
+                &:hover {
+                    transform: rotate(0deg);
+                    cursor: pointer;
+                }
+            }
         }
     }
 }

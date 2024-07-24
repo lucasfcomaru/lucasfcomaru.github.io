@@ -1,6 +1,7 @@
 /* Menu */
 .header {
-  background-color: var(--cor-bg-1);
+  /* background-color: var(--cor-bg-1); */
+  
   .header-container {
     display: flex;
     justify-content: space-between;
@@ -38,15 +39,10 @@
       & li {
         padding: 12px 20px;
         transition: font-weight ease-in 0.3s;
+        color: var(--cor-1);
 
-        & a {
-          font-weight: 400;
-          color: var(--cor-1);
-
-          &:hover {
-            color: var(--cor-0);
-            font-weight: 700;
-          }
+        &:hover {
+          color: var(--cor-0);
         }
       }
     }
