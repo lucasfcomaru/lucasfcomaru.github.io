@@ -1,8 +1,7 @@
 /* Menu */
-.header {
-  /* background-color: var(--cor-bg-1); */
+.header-bg {
   
-  .header-container {
+  .header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;

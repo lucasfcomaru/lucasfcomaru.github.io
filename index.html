@@ -24,8 +24,8 @@
 
 <body>
     <div class="container-bg">
-        <header class="header">
-            <div class="header-container container">
+        <header class="header-bg">
+            <div class="header container">
                 <div class="header-logo">
                     <div class="logo">
                         <img src="./img/logo.svg" alt="Logo" width="40" height="57" />
@@ -59,7 +59,7 @@
         </header>
 
         <main class="sobre-bg">
-            <div class="sobre-container container">
+            <div class="sobre-container container" id="sobre">
                 <div class="sobre-texto">
                     <h2 class="medium regular">Oi, meu nome é <strong>Lucas</strong></h2>
                     <h1 class="large bold">
@@ -76,11 +76,9 @@
                         </em>
                     </p>
                     <div class="sobre-botoes">
-                        <a href="http://lattes.cnpq.br/4106499559915315" target="_blank">
-                            <div class="botao">
-                                <span class="bold small">Download CV</span>
-                                <img src="./img/icones/geral/cloud-arrow-down-fill.svg" alt="" width="26" height="26">
-                            </div>
+                        <a class="botao" href="http://lattes.cnpq.br/4106499559915315" target="_blank">
+                            <span class="bold small">Download CV</span>
+                            <img src="./img/icones/geral/cloud-arrow-down-fill.svg" alt="" width="26" height="26">
                         </a>
 
                         <div class="sobre-redes">
@@ -135,11 +133,13 @@
     </div>
 
     <!-- Seção de formação -->
-    <section class="formacao-bg" aria-label="Formação">
+    <section class="formacao-bg" id="formacao" aria-label="Formação">
         <div class="formacao container">
             <div class="formacao-informacao">
                 <h2 class="bold large">Formação</h2>
-                <p class="regular xsmall">Minha mais recente experiência está sendo a graduação em <strong>Análise e Desenvolvimento de Sistemas</strong> com foco em desenvolvimento <strong>Front End</strong> e <strong>UX/UI Design</strong>. Além disso me mantenho sempre atualizado com cursos na área.</p>
+                <p class="regular xsmall">Minha mais recente experiência está sendo a graduação em <strong>Análise e
+                        Desenvolvimento de Sistemas</strong> com foco em desenvolvimento <strong>Front End</strong> e
+                    <strong>UX/UI Design</strong>. Além disso me mantenho sempre atualizado com cursos na área.</p>
             </div>
 
             <!-- Cards com os cursos -->
@@ -204,6 +204,141 @@
                         <span class="regular xsmall">2013/2015</span>
                     </div>
                 </div>
+                <a class="botao" href="#">
+                    <span>Formação completa</span>
+                    <img src="./img/icones/geral/box-arrow-in-right.svg" alt="" width="40" height="40">
+                </a>
+            </div>
+        </div>
+
+        <!-- Habilidades -->
+        <div class="habilidade container">
+            <div class="habilidade-informacao">
+                <h2 class="bold large">Habilidades</h2>
+                <p class="regular xsmall">Principais <strong>tecnologias</strong> utilizadas nos desenvolvimento dos projetos.</p>
+            </div>
+
+            <!-- Cards com habilidades -->
+            <div class="habilidade-card">
+                <!-- Linha 1 -->
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/python.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Python</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/html-5.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">HTML</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/CSS.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">CSS</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/javascript.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">JavaScript</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/wordpress.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Wordpress</span>
+            </div>
+
+            <!-- Linha 2 -->
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/vs-code.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">VS Code</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/pycharm.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">PyCharm</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/pandas.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Pandas</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/google-col.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Colaboratory</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/git.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Git</span>
+            </div>
+
+            <!-- Linhas 3 -->
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/github.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">GitHub</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/figma.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Figma</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/illustrator.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Illustrator</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/photoshop.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Photoshop</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/adobe-indesign.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">InDesign</span>
+            </div>
+
+            <!-- Linha 4 -->
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/adobe-premiere-pro.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Premiere</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/adobe-after-effects.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">After Effects</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/excel.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Excel</span>
+            </div>
+            <div class="habilidade-card">
+                <div class="icone-card">
+                    <img src="./img/icones/habilidades/word.svg" alt="" width="120" height="120">
+                </div>
+                <span class="bold xsmall">Word</span>
             </div>
         </div>
     </section>

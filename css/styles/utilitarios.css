@@ -48,10 +48,12 @@
 
     & span {
         color: var(--cor-0);
+    }
 
-        & img {
-            display: inline;
-        }
+    & img {
+        display: inline;
+        width: 20px;
+        height: 20px;
     }
 
     &:hover {
