@@ -1,0 +1,41 @@
+/* Sobre */
+.sobre {
+    background-color: var(--cor-bg-2);
+
+    .sobre-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        padding: 120px 40px;
+
+        .sobre-texto {
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+            color: var(--cor-1);
+
+            & h2 strong {
+                color: var(--cor-0);
+            }
+
+            & h1 {
+                color: var(--cor-0);
+            }
+
+            .sobre-botoes {
+                display: flex;
+                justify-content: flex-start;
+
+                .botao img {
+                    width: 26px;
+                    height: 26px;
+                }
+            }
+        }
+
+        .sobre-redes {
+            display: flex;
+            gap: 12px;
+        }
+    }
+}

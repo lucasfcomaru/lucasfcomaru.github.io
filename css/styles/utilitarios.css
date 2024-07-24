@@ -1,0 +1,80 @@
+/* Classes utilitárias */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Peso tipografia */
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+/* Tamanho tipografia */
+.xsmall {
+    font-size: 1rem;
+}
+
+.small {
+    font-size: 1.25rem;
+}
+
+.medium {
+    font-size: 2.5rem;
+}
+
+.large {
+    font-size: 3.75rem;
+}
+
+.xlarge {
+    font-size: 5rem;
+}
+
+/* Botões */
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: 2px solid var(--cor-bg-3);
+    border-radius: 100px;
+    transition: background-color ease-in 0.2s;
+
+    & span {
+        color: var(--cor-0);
+
+        & img {
+            display: inline;
+        }
+    }
+
+    &:hover {
+        background-color: var(--cor-bg-3);
+        border: 2px solid var(--cor-bg-3)
+    }
+}
+
+.botao-redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 12px;
+    border: 2px solid var(--cor-bg-3);
+    border-radius: 100px;
+    transition: background-color ease-in 0.2s;
+
+    & img {
+        width: 27px;
+    }
+
+    &:hover {
+        background-color: var(--cor-bg-3);
+        border: 2px solid var(--cor-bg-3)
+    }
+}
