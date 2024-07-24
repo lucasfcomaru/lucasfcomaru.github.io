@@ -1,0 +1,18 @@
+.formacao-bg {
+    background-color: var(--cor-bg-1);
+
+    .formacao {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        padding: 120px 40px;
+
+        .formacao-informacao {
+            color: var(--cor-1);
+
+            & h2 {
+                color: var(--cor-0);
+            }
+        }
+    }
+}
