@@ -45,7 +45,7 @@
     border-radius: 100px;
     transition: background-color ease-in 0.2s;
     box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
-
+    
     & span {
         color: var(--cor-0);
     }
@@ -58,7 +58,8 @@
 
     &:hover {
         background-color: var(--cor-bg-3);
-        border: 2px solid var(--cor-bg-3)
+        border: 2px solid var(--cor-bg-3);
+        
     }
 }
 
