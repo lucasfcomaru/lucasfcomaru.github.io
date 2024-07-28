@@ -1,0 +1,51 @@
+/* Contato */
+
+.contato-bg {
+  background-color: var(--cor-bg-2);
+  /* Cria o efeito de recorte do fundo */
+  box-shadow: inset 0 200px 0 0 var(--cor-bg-0);
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 40px 120px;
+  gap: 40px;
+
+  .contato-imagem {
+    & img {
+      filter: drop-shadow(-40px 80px 40px rgba(0, 0, 0, 0.25));
+    }
+  }
+
+  .contato-form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 320px;
+
+    & h2 {
+      color: var(--cor-0);
+    }
+
+    & p {
+      color: var(--cor-1);
+      max-width: 40ch;
+
+      & strong {
+        color: var(--cor-0);
+      }
+    }
+
+    /* configurações de cor
+    do botão do formulário */
+    & button {
+      background-color: var(--cor-bg-2);
+      color: var(--cor-0);
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--cor-bg-3);
+      }
+    }
+  }
+}
