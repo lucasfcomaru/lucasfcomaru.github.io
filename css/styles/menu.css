@@ -1,6 +1,5 @@
 /* Menu */
 .header-bg {
-  
   .header {
     display: flex;
     justify-content: space-between;
@@ -38,9 +37,12 @@
       & li {
         padding: 12px 20px;
         transition: ease-in 0.3s;
-        color: var(--cor-1);
 
-        &:hover {
+        & a {
+          color: var(--cor-1);
+        }
+
+        & a:hover {
           color: var(--cor-0);
         }
       }

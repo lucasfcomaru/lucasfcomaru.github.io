@@ -26,7 +26,11 @@
             transition: ease-in 0.3s;
             color: var(--cor-1);
 
-            &:hover {
+            & a {
+                color: var(--cor-1);
+            }
+            
+            & a:hover {
                 color: var(--cor-0);
             }
         }
@@ -34,7 +38,7 @@
 
     .direitos {
         
-        & span {
+        & span a {
             color: var(--cor-0);
         }
     }
