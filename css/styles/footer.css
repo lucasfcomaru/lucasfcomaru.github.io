@@ -1,0 +1,41 @@
+/* Footer */
+.footer-bg {
+    background-color: var(--cor-bg-1);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 40px 40px;
+    gap: 40px;
+    align-items: center;
+    color: var(--cor-1);
+
+    .footer-logo {
+        & img {
+            width: 40px;
+        }
+    }
+
+    .footer-menu ul {
+        display: flex;
+        gap: 26px;
+
+        & li {
+            padding: 12px 20px;
+            transition: ease-in 0.3s;
+            color: var(--cor-1);
+
+            &:hover {
+                color: var(--cor-0);
+            }
+        }
+    }
+
+    .direitos {
+        
+        & span {
+            color: var(--cor-0);
+        }
+    }
+}

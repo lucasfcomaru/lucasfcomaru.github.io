@@ -37,7 +37,7 @@
 
       & li {
         padding: 12px 20px;
-        transition: font-weight ease-in 0.3s;
+        transition: ease-in 0.3s;
         color: var(--cor-1);
 
         &:hover {
