@@ -17,6 +17,7 @@
 
     .email {
       & a {
+        padding: 12px 20px;
         color: var(--cor-1);
 
         &:hover {
@@ -36,10 +37,10 @@
       gap: 26px;
 
       & li {
-        padding: 12px 20px;
         transition: ease-in 0.3s;
 
         & a {
+          padding: 12px 20px;
           color: var(--cor-1);
         }
 
