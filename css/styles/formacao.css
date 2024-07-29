@@ -58,6 +58,11 @@
                 }
             }
         }
+
+        .botao {
+            grid-column: 1;
+            max-width: max-content;
+        }
     }
 }
 
