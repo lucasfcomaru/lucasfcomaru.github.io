@@ -1,0 +1,64 @@
+.portfolio-bg {
+  .portfolio {
+    padding: 120px 40px 40px;
+
+    .portfolio-informacao h2 {
+      color: var(--cor-3);
+    }
+  }
+
+  .portfolio-cards {
+    width: 100%;
+    display: flex;
+    padding: 0 20px 80px;
+    gap: 40px;
+    justify-content: center;
+
+    .portfolio-card a {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      justify-content: space-between;
+      border-radius: 4px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+
+      & img {
+        border-radius: 4px 4px 0 0;
+      }
+
+      .card-informacao {
+        padding: 0 20px 20px;
+
+        & h3 {
+          color: var(--cor-2);
+        }
+
+        & span {
+          color: var(--cor-1);
+        }
+      }
+    }
+  }
+}
+
+.portfolio-botao {
+  display: flex;
+  justify-content: end;
+  padding: 0 40px 120px;
+
+  .botao {
+    background-color: var(--cor-2);
+  }
+  /* .botao span {
+    color: var(--cor-2);
+  } */
+
+  .botao:hover {
+    background-color: var(--cor-bg-3);
+  }
+}
