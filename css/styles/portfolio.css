@@ -29,7 +29,7 @@
         transform: scale(1.1);
 
         .card-informacao span {
-            color: var(--cor-4);
+          color: var(--cor-4);
         }
       }
 
@@ -96,25 +96,24 @@
       }
     }
     .portfolio-botao {
-        padding-top: 40px;
+      padding-top: 40px;
     }
   }
 }
 
 @media (max-width: 450px) {
   .portfolio-bg {
-
     & h2 {
-        text-align: center;
+      text-align: center;
     }
     .portfolio-cards {
       gap: 50px;
     }
     .portfolio-botao {
-        .botao {
-
-            width: 100%;
-        }
+        padding-top: 0px;
+      .botao {
+        width: 100%;
+      }
     }
   }
 }
