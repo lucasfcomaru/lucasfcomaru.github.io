@@ -164,7 +164,5 @@
   .habilidade {
     grid-template-columns: repeat(7, 1fr);
     overflow-x: scroll;
-    .habilidade-card {
-    }
   }
 }

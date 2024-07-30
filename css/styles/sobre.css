@@ -1,86 +1,152 @@
 /* Sobre */
 .sobre-bg {
+  .sobre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 120px 40px;
 
-    .sobre-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
-        padding: 120px 40px;
+    .sobre-texto {
+      display: flex;
+      gap: 12px;
+      flex-direction: column;
+      color: var(--cor-1);
 
-        .sobre-texto {
-            display: flex;
-            gap: 12px;
-            flex-direction: column;
-            color: var(--cor-1);
+      & h2 strong {
+        color: var(--cor-0);
+      }
 
-            & h2 strong {
-                color: var(--cor-0);
-            }
+      & h1 {
+        color: var(--cor-0);
+      }
 
-            & h1 {
-                color: var(--cor-0);
-            }
+      .sobre-botoes {
+        display: flex;
+        justify-content: flex-start;
+        gap: 12px;
+        margin-top: 20px;
 
-            .sobre-botoes {
-                display: flex;
-                justify-content: flex-start;
-                gap: 12px;
-                margin-top: 20px;
-
-                .botao img {
-                    width: 26px;
-                    height: 26px;
-                }
-
-                .sobre-redes {
-                    display: flex;
-                    gap: 12px;
-                }
-            }
+        .botao img {
+          width: 26px;
+          height: 26px;
         }
 
-        .sobre-imagem {
-            padding: 40px;
-            display: flex;
-            align-items: start;
-
-            .imagem-lucas img {
-                border: 6px solid var(--cor-1);
-                border-radius: 16px;
-                transform: rotate(-5deg);
-                transition: transform ease-in 0.3s;
-                box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
-
-                &:hover {
-                    transform: rotate(0deg);
-                    cursor: pointer;
-                }
-            }
+        .sobre-redes {
+          display: flex;
+          gap: 12px;
         }
+      }
     }
+
+    .sobre-imagem {
+      padding: 40px;
+      display: flex;
+      align-items: start;
+
+      .imagem-lucas img {
+        border: 6px solid var(--cor-1);
+        border-radius: 16px;
+        transform: rotate(-5deg);
+        transition: transform ease-in 0.3s;
+        box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.4);
+
+        &:hover {
+          transform: rotate(0deg);
+          cursor: pointer;
+        }
+      }
+    }
+  }
 }
 
 /* Seção experiência */
 .container-bg .experiencia {
+  .experiencia-container {
+    display: flex;
+    justify-content: space-evenly;
 
-    .experiencia-container {
-        display: flex;
-        justify-content: space-evenly;
+    .experiencia-dados {
+      display: flex;
+      align-items: center;
+      gap: 12px;
 
-        .experiencia-dados {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            
+      .dados-numero {
+        color: var(--cor-0);
+      }
 
-            .dados-numero {
-                color: var(--cor-0);
-            }
-
-            .dados-texto {
-                color: var(--cor-1);
-                max-width: 120px;
-            }
-        }
+      .dados-texto {
+        color: var(--cor-1);
+        max-width: 120px;
+      }
     }
+  }
+}
+
+/* Responsividade sobre*/
+@media (max-width: 1160px) {
+  .sobre-bg {
+    .sobre {
+      grid-template-columns: 4fr 3fr;
+      .sobre-texto {
+        & h2 {
+          font-size: 1.75rem;
+        }
+        & h1 {
+          font-size: 3rem;
+        }
+
+        & p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .sobre-bg {
+    .sobre {
+      grid-template-columns: 1fr;
+
+      .sobre-imagem {
+        grid-row: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre-bg {
+    .sobre {
+      .sobre-texto {
+        & h1 {
+          font-size: 2.25rem;
+        }
+
+        & h2 {
+          font-size: 1.25rem;
+        }
+        .sobre-botoes {
+          flex-direction: column;
+          gap: 40px;
+
+          .sobre-redes {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .sobre-bg {
+    .sobre {
+      .sobre-texto {
+        & h1 {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 }
