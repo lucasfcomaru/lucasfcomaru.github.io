@@ -65,34 +65,35 @@
   }
 }
 
+.habilidade-informacao {
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+
+  & h2 {
+    color: var(--cor-0);
+    text-align: center;
+  }
+
+  & p {
+    /* quebra de linha em texto */
+    max-width: 40ch;
+    color: var(--cor-1);
+    text-align: center;
+  }
+}
+
 .habilidade {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 20px;
   padding: 0 40px 120px;
 
-  .habilidade-informacao {
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-
-    & h2 {
-      color: var(--cor-0);
-      text-align: center;
-    }
-
-    & p {
-      /* quebra de linha em texto */
-      max-width: 40ch;
-      color: var(--cor-1);
-      text-align: center;
-    }
-  }
-
   .habilidade-card {
+    min-width: 120px;
     background-color: var(--cor-bg-2);
     padding: 20px;
     display: flex;
@@ -123,7 +124,7 @@
   }
 }
 
-/* Responsividade */
+/* Responsividade Formação */
 @media (max-width: 830px) {
   .formacao-bg {
     .formacao {
@@ -138,9 +139,9 @@
       .formacao-cursos {
         display: flex;
         flex-direction: column;
-        
+
         .curso-card {
-            min-width: 100%;
+          min-width: 100%;
         }
       }
 
@@ -148,6 +149,22 @@
         min-width: 100%;
         justify-self: center;
       }
+    }
+  }
+}
+
+/* Responsividade Habilidade */
+@media (max-width: 1050px) {
+  .habilidade {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .habilidade {
+    grid-template-columns: repeat(7, 1fr);
+    overflow-x: scroll;
+    .habilidade-card {
     }
   }
 }
