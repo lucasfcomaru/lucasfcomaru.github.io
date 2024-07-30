@@ -51,3 +51,11 @@
     }
   }
 }
+
+/* Responsividade Menu */
+/* Testes */
+@media (max-width: 450px) {
+  .header-bg .header {
+    overflow-x: hidden;
+  }
+}
