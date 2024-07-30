@@ -155,6 +155,6 @@
 /* testes */
 @media (max-width: 450px) {
   .container-bg .experiencia-container {
-    overflow-x: hidden;
+    overflow-x: scroll;
   }
 }

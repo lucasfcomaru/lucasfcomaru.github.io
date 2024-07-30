@@ -64,7 +64,7 @@
 
   .formacao-botao {
     padding: 40px 40px 120px;
-    
+
     .botao {
       grid-column: 1;
       max-width: max-content;
@@ -83,6 +83,7 @@
   & h2 {
     color: var(--cor-0);
     text-align: center;
+    padding: 0 40px;
   }
 
   & p {
@@ -146,10 +147,6 @@
       display: flex;
       flex-wrap: nowrap;
       overflow-x: scroll;
-
-      .curso-card {
-        /* min-width: 100%; */
-      }
     }
 
     .botao {
@@ -170,5 +167,8 @@
   .habilidade {
     grid-template-columns: repeat(7, 1fr);
     overflow-x: scroll;
+  }
+  .habilidade-informacao h2 {
+    font-size: 3rem;
   }
 }
