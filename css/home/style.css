@@ -1,9 +1,9 @@
 /* Configurações gerais */
-@import url(./styles/geral.css);
+@import url(../utilitarios/geral.css);
 /* Variáveis */
-@import url(./styles/variaveis.css);
+@import url(../utilitarios/variaveis.css);
 /* Classes utilitárias */
-@import url(./styles/utilitarios.css);
+@import url(../utilitarios/utilitarios.css);
 /* Menu */
 @import url(./styles/menu.css);
 /* Sobre */

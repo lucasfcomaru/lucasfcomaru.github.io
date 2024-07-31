@@ -1,0 +1,14 @@
+/* Configurações gerais */
+@import url(../utilitarios/geral.css);
+/* Variáveis */
+@import url(../utilitarios/variaveis.css);
+/* Classes utilitárias */
+@import url(../utilitarios/utilitarios.css);
+/* Menu */
+@import url(./styles/menu.css);
+/* Formacao */
+@import url(./styles/formacao.css);
+/* Complementar */
+@import url(./styles/complementar.css);
+/* Footer */
+@import url(./styles/footer.css);

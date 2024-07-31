@@ -1,0 +1,61 @@
+/* Menu */
+.header-bg {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+
+  .header-logo {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+
+    .logo {
+      width: 40px;
+    }
+
+    .email {
+      & a {
+        padding: 12px 20px;
+        color: var(--cor-1);
+
+        &:hover {
+          color: var(--cor-0);
+        }
+      }
+    }
+  }
+
+  .header-menu {
+    display: flex;
+    align-items: center;
+
+    & ul {
+      display: flex;
+      align-items: center;
+      gap: 26px;
+
+      & li {
+        transition: ease-in 0.3s;
+
+        & a {
+          padding: 12px 20px;
+          color: var(--cor-1);
+        }
+
+        & a:hover {
+          color: var(--cor-0);
+        }
+      }
+    }
+  }
+}
+
+/* Responsividade Menu */
+/* Testes */
+@media (max-width: 450px) {
+  .header-bg .header {
+    overflow-x: scroll;
+  }
+}
