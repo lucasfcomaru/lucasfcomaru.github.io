@@ -64,6 +64,7 @@
   .experiencia-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 0 40px;
 
     .experiencia-dados {
       display: flex;
@@ -150,11 +151,35 @@
     }
   }
 }
-/* Responsividade experiência */
 
-/* testes */
-@media (max-width: 450px) {
+/* Responsividade experiência */
+@media (max-width: 900px) {
+  .container-bg .experiencia-container {
+    .experiencia-dados p:first-child {
+      font-size: 4rem;
+    }
+    .experiencia-dados p:last-child {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .container-bg .experiencia-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .experiencia-dados p:first-child {
+      font-size: 5rem;
+    }
+    .experiencia-dados p:last-child {
+      font-size: 1.25rem;
+    }
+  }
+}
+/* @media (max-width: 450px) {
   .container-bg .experiencia-container {
     overflow-x: scroll;
   }
-}
+} */
