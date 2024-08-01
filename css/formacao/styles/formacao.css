@@ -1,3 +1,7 @@
+.container-bg {
+  padding-bottom: 0;
+}
+
 .formacao-bg {
   background-color: var(--cor-bg-1);
 
