@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
 
-    & ul {
+    & [data-menu="list"] {
       display: flex;
       align-items: center;
       gap: 26px;
@@ -49,13 +49,106 @@
         }
       }
     }
+
+    & [data-menu="button"] {
+      height: 100%;
+      width: 57px;
+      display: none;
+
+      /* Pseudo elemento para criar menu */
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 4px;
+        background-color: var(--cor-4);
+        box-shadow: 0 10px var(--cor-4), 0 -10px var(--cor-4);
+        border-radius: 2px;
+      }
+    }
   }
 }
 
 /* Responsividade Menu */
-/* Testes */
-@media (max-width: 450px) {
-  .header-bg .header {
-    overflow-x: scroll;
+@media (max-width: 1000px) {
+  .header {
+    .header-logo {
+      .email {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Menu mobile */
+@media (max-width: 720px) {
+  .header {
+    .header-menu {
+      & [data-menu="button"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        gap: 8px;
+        background: var(--cor-2);
+        border: 2px solid var(--cor-4);
+        border-radius: 4px;
+        cursor: pointer;
+        position: relative;
+        z-index: 300;
+        transition: ease-in-out 0.2s;
+
+        &.ativo::before {
+          transform: rotate(90deg);
+        }
+
+        &:hover {
+          background: var(--cor-4);
+
+          &::before {
+            background-color: var(--cor-0);
+            box-shadow: 0 10px var(--cor-0), 0 -10px var(--cor-0);
+          }
+        }
+      }
+    }
+
+    & [data-menu="list"] {
+      display: block;
+      flex-direction: column;
+      align-items: end;
+      position: absolute;
+      z-index: 200;
+      min-width: 100%;
+      top: 0;
+      right: 0;
+      padding: 120px 0 40px;
+      background-color: var(--cor-bg-2);
+
+      & li {
+        width: 100%;
+        text-align: right;
+        padding-right: 20px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        &:last-child {
+          border: none;
+        }
+        & a {
+          display: block;
+          width: 100%;
+        }
+        .botao {
+          border: none;
+          box-shadow: none;
+          transition: none;
+          &:hover {
+            background: none;
+          }
+        }
+      }
+    }
   }
 }

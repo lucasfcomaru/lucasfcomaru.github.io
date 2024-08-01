@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lucas Comaru - Portfólio</title>
+    <title>Lucas Comaru - Formação completa</title>
 
     <!-- Descrição para os motores de busca -->
     <meta
       name="description"
-      content="Desenvolvedor e UX/UI Designer localizado no Ceará"
+      content="Formação completa com todos os cursos realizados."
     />
 
     <!-- Import CSS -->
@@ -46,18 +46,18 @@
 
           <!-- Páginas -->
           <nav class="header-menu" aria-label="Primário">
-            <ul>
+            <!-- Botão menu mobile -->
+            <button
+              data-menu="button"
+              aria-expanded="false"
+              aria-controls="menu"
+            ></button>
+            <ul data-menu="list" id="menu">
+              <li class="xsmall bold"><a href="#sobre">Sobre mim</a></li>
+              <li class="xsmall bold"><a href="#formacao">Formação</a></li>
+              <li class="xsmall bold"><a href="#portfolio">Portfolio</a></li>
               <li class="xsmall bold">
-                <a href="../index.html#sobre">Sobre mim</a>
-              </li>
-              <li class="xsmall bold">
-                <a href="../index.html#formacao">Formação</a>
-              </li>
-              <li class="xsmall bold">
-                <a href="../index.html#portfolio">Portfolio</a>
-              </li>
-              <li class="xsmall bold">
-                <a class="botao" href="../index.html#contato">Contato</a>
+                <a class="botao" href="#contato">Contato</a>
               </li>
             </ul>
           </nav>
