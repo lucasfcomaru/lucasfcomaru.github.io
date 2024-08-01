@@ -18,8 +18,8 @@ export default function outsideClick(element, events, callback) {
     }
 
     function handleOutsideClick(event) {
-        // usando o evento como parâmetro para 
-        // verificar se um elemento o elemento não foi clicado
+        // verifica se o o alvo clicado não
+        // está dentro do elemento
         if (!element.contains(event.target)) {
             // remove o atributo do elemento
             element.removeAttribute(outside);

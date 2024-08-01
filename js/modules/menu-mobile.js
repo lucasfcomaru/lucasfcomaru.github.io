@@ -3,7 +3,7 @@ import outsideClick from "./outsideclick.js";
 export default function initMenuMobile() {
   const button = document.querySelector('[data-menu="button"]');
   const list = document.querySelector('[data-menu="list"]');
-  const eventos = ["click", "touchstart"]; // array com os eventos
+  const eventos = ["touchstart"]; // array com os eventos
 
   // verifica se o botão existe
   if (button) {
