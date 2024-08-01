@@ -4,6 +4,8 @@
 @import url(../utilitarios/variaveis.css);
 /* Classes utilitárias */
 @import url(../utilitarios/utilitarios.css);
+/* Animações */
+@import url(./styles/animation.css);
 /* Menu */
 @import url(./styles/menu.css);
 /* Formacao */
