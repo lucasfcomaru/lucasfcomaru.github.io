@@ -96,7 +96,10 @@
         cursor: pointer;
         position: relative;
         z-index: 300;
-        transition: ease-in-out 0.2s;
+
+        &::before {
+          transition: ease-in-out 0.2s;
+        }
 
         &.ativo::before {
           transform: rotate(90deg);
@@ -123,12 +126,12 @@
         right: 0;
         padding: 120px 0 40px;
         background-color: var(--cor-bg-2);
-  
+
         &.ativo {
           display: flex;
           animation: show-left ease-in-out 0.2s forwards;
         }
-  
+
         & li {
           width: 100%;
           text-align: right;
@@ -136,7 +139,7 @@
           display: flex;
           justify-content: end;
           align-items: center;
-  
+
           &:last-child {
             border: none;
           }
