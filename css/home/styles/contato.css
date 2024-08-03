@@ -225,8 +225,9 @@
       }
 
       .contato-aviso {
+        justify-content: start;
         & p {
-          text-align: center;
+          text-align: left;
         }
       }
     }
