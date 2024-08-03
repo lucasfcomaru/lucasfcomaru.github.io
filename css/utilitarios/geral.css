@@ -31,3 +31,16 @@ img {
   background: url('../../img/bg-sobre-min.jpg') no-repeat center/cover, var(--cor-bg-2);
   padding-bottom: 120px;
 }
+
+/* Animação scroll */
+
+.scroll{
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: ease-in-out 0.3s;
+
+  &.ativo {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

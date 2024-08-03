@@ -61,6 +61,7 @@
     .idioma {
       display: grid;
       grid-template-columns: 9fr 3fr;
+      align-items: center;
       color: var(--cor-1);
       background: var(--cor-bg-1);
       padding: 8px;
