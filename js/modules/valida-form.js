@@ -18,7 +18,7 @@ export default function initValidaForm() {
       // adiciona a classe ativo ao elemento para mudar o display
       aviso.classList.add("ativo");
       // Altera o conteúdo do elemento
-      avisotexto.innerHTML +=
+      avisotexto.innerHTML =
         "<br>Preencha o campo <strong>nome, email e mensagem</strong>";
     } else if (!nome.value) {
       // verifica se o campo nome está preenchido
