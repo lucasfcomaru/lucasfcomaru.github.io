@@ -47,12 +47,18 @@
           <!-- Páginas -->
           <nav class="header-menu" aria-label="Primário">
             <!-- Botão menu mobile -->
-             <button data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+            <button
+              data-menu="button"
+              aria-expanded="false"
+              aria-controls="menu"
+            ></button>
             <ul data-menu="list" id="menu">
               <li class="xsmall bold"><a href="#sobre">Sobre mim</a></li>
               <li class="xsmall bold"><a href="#formacao">Formação</a></li>
               <li class="xsmall bold"><a href="#portfolio">Portfolio</a></li>
-              <li class="xsmall bold"><a class="botao" href="#contato">Contato</a></li>
+              <li class="xsmall bold">
+                <a class="botao" href="#contato">Contato</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -266,12 +272,11 @@
       <div class="habilidade-informacao container scroll">
         <h2 class="bold large">Habilidades</h2>
         <p class="regular xsmall">
-          Principais <strong>tecnologias</strong> utilizadas nos
-          desenvolvimento dos projetos.
+          Principais <strong>tecnologias</strong> utilizadas nos desenvolvimento
+          dos projetos.
         </p>
       </div>
       <div class="habilidade container scroll">
-
         <!-- Cards com habilidades -->
         <div class="habilidade-card">
           <!-- Linha 1 -->
@@ -526,8 +531,16 @@
           <a href="https://github.com/lucasfcomaru/bikecraft" target="_blank">
             <picture class="card-img">
               <!-- carrega imagem diferente para dispositivos móveis -->
-              <source media="(max-width: 450px)" srcset="./img/bikecraft-mobile.jpg" />
-              <img src="./img/bikecraft.jpg" alt="Bikecraft" width="388" height="477">
+              <source
+                media="(max-width: 450px)"
+                srcset="./img/bikecraft-mobile.jpg"
+              />
+              <img
+                src="./img/bikecraft.jpg"
+                alt="Bikecraft"
+                width="388"
+                height="477"
+              />
             </picture>
             <div class="card-informacao">
               <h3 class="bold small">Site Bikecraft</h3>
@@ -537,11 +550,22 @@
         </div>
         <!-- Cronômetro -->
         <div class="portfolio-card">
-          <a href="https://github.com/lucasfcomaru/cronometro_javascript" target="_blank">
+          <a
+            href="https://github.com/lucasfcomaru/cronometro_javascript"
+            target="_blank"
+          >
             <picture class="card-img">
               <!-- carrega imagem diferente para dispositivos móveis -->
-              <source media="(max-width: 450px)" srcset="./img/cronometro-mobile.jpg" />
-              <img src="./img/cronometro.jpg" alt="Bikecraft" width="388" height="477">
+              <source
+                media="(max-width: 450px)"
+                srcset="./img/cronometro-mobile.jpg"
+              />
+              <img
+                src="./img/cronometro.jpg"
+                alt="Bikecraft"
+                width="388"
+                height="477"
+              />
             </picture>
             <div class="card-informacao">
               <h3 class="bold small">Cronômetro</h3>
@@ -551,11 +575,22 @@
         </div>
         <!-- Análise de dados -->
         <div class="portfolio-card">
-          <a href="https://github.com/lucasfcomaru/Pokemon_dataset_analysis" target="_blank">
+          <a
+            href="https://github.com/lucasfcomaru/Pokemon_dataset_analysis"
+            target="_blank"
+          >
             <picture class="card-img">
               <!-- carrega imagem diferente para dispositivos móveis -->
-              <source media="(max-width: 450px)" srcset="./img/pokemon-mobile.jpg" />
-              <img src="./img/pokemon.jpg" alt="Bikecraft" width="388" height="477">
+              <source
+                media="(max-width: 450px)"
+                srcset="./img/pokemon-mobile.jpg"
+              />
+              <img
+                src="./img/pokemon.jpg"
+                alt="Bikecraft"
+                width="388"
+                height="477"
+              />
             </picture>
             <div class="card-informacao">
               <h3 class="bold small">Análise de dados</h3>
@@ -588,28 +623,49 @@
           <p class="regular small">
             Estou disponível para novos projetos no momento.
             <strong>Bora conversar</strong>?.
-            <form action="">
-                <div class="form-container">
-                    <div class="form-identificacao">
-                        <div class="identificacao-nome">
-                            <label for="nome" class="bold xsmall">Nome</label>
-                            <input type="text" name="nome" id="nome" placeholder="Escreva seu nome" required>
-                        </div>
-                        <div class="identificacao-email">
-                            <label for="nome" class="bold xsmall">Email</label>
-                            <input type="email" name="email" id="email" placeholder="seu@email.com" required>
-                        </div>
-                    </div>
-                    <div class="form-mensagem">
-                        <label for="mensagem" class="bold xsmall">Mensagem</label>
-                        <textarea name="mensagem" id="mensagem"></textarea>
-                    </div>
-                    <button type="submit" class="botao xsmall botao-bg">Enviar
-                        <img src="./img/icones/geral/send.svg" alt="" width="35" height="35">
-                    </button>
-                </div>
-            </form>
           </p>
+          <div class="contato-aviso">
+            <p data-aviso>Preencha todos os campos corretamente!</p>
+          </div>
+          <form action="">
+            <div class="form-container">
+              <div class="form-identificacao">
+                <div class="identificacao-nome">
+                  <label for="nome" class="bold xsmall">Nome</label>
+                  <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    placeholder="Escreva seu nome"
+                    required
+                  />
+                </div>
+                <div class="identificacao-email">
+                  <label for="email" class="bold xsmall">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="seu@email.com"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-mensagem">
+                <label for="mensagem" class="bold xsmall">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+              </div>
+              <button type="submit" class="botao xsmall botao-bg" data-button>
+                Enviar
+                <img
+                  src="./img/icones/geral/send.svg"
+                  alt=""
+                  width="35"
+                  height="35"
+                />
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
@@ -633,7 +689,11 @@
         </nav>
         <p class="direitos xsmall regular">
           © 2024 todos os direitos reservados. Desenvolvido com 🎔 por
-          <span class="bold"><a href="https://github.com/lucasfcomaru" target="_blank">Lucas Comaru.</a></span>
+          <span class="bold"
+            ><a href="https://github.com/lucasfcomaru" target="_blank"
+              >Lucas Comaru.</a
+            ></span
+          >
         </p>
       </div>
     </footer>

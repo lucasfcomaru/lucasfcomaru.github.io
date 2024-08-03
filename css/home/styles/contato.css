@@ -24,6 +24,17 @@
     padding-top: 320px;
     gap: 20px;
 
+    .contato-aviso {
+      display: none;
+      border: 2px solid var(--cor-bg-3);
+      border-radius: 4px;
+      padding: 8px;
+
+      &.ativo{
+        display: flex;
+      }
+    }
+
     & h2 {
       color: var(--cor-0);
     }
@@ -156,6 +167,19 @@
         align-self: flex-end;
         text-align: right;
       }
+
+      .contato-aviso {
+        display: none;
+        justify-content: end;
+        border: 2px solid var(--cor-bg-3);
+        border-radius: 4px;
+        padding: 8px;
+
+        & p {
+          max-width: none;
+          text-align: right;
+        }
+      }
     }
   }
 }
@@ -197,6 +221,12 @@
         }
         & button {
           min-width: 100%;
+        }
+      }
+
+      .contato-aviso {
+        & p {
+          text-align: center;
         }
       }
     }
