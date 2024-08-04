@@ -1,4 +1,4 @@
-<img src="/img/banner-cronometro.png"/>
+<img src="./img/banner-readme.jpg"/>
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/lucasfcomaru/lucasfcomaru.github.io?style=for-the-badge" alt="Repo size" title="Repo size"/>
     <img src="https://img.shields.io/github/languages/count/lucasfcomaru/lucasfcomaru.github.io?style=for-the-badge" alt="Language count" title="Language count"/>
@@ -10,8 +10,11 @@
 </p>
 
 # 📄 Portfólio
+
 ## 📢 Descrição do Projeto
+
 ### 🎯 Objetivo
+
 <p align="left">
     O objetivo deste projeto é a construção de um portfólio como trabalho final para a disciplina de Fundamentos da Programação Web utilizando as linguagens: <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
 <p align="left">
@@ -19,6 +22,7 @@
 </p>
 
 ### 🛠️ Ferramentas utilizadas
+
 <p>
     <img src="https://skillicons.dev/icons?i=figma,vscode,html,css,js,git,github" />
 </p>
@@ -53,17 +57,19 @@
 ```
 
 ### ✒️ UI Design
+
 É possível visualizar um pouco mais sobre a o design de interface clicando <a href="#" target="_blank">aqui</a>.
 
 ## 💻 Pré-requisitos
+
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você tem uma máquina `<Windows / Linux / Mac>` ou um smartphone `<Android / iOS>`.
 - Você tem a versão mais recente de um dos principais navegadores `<Chrome / Firefox / Edge / Opera>` instalada.
 
 ## ☕ Usando o projeto
+
 <ul>
     <li>Etapa 1: baixe os arquivos.</li>
-    <li>Etapa 2: abra o arquivo index.html em um navegador da sua preferência.</li>
-    <li>Etapa 3: acesse o link <a href="https://lucasfcomaru.github.io/" target="_blank"><b>https://lucasfcomaru.github.io/</b></a></li>
+    <li>Etapa 2: abra o arquivo index.html em um navegador da sua preferência ou acesse o link <a href="https://lucasfcomaru.github.io/"><b>https://lucasfcomaru.github.io/</b></a>.</li>
 </ul>
