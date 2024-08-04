@@ -23,6 +23,7 @@
     <img src="https://skillicons.dev/icons?i=figma,vscode,html,css,js,git" />
 </p>
 <ul>
+    <img src="https://skillicons.dev/icons?i=figma" />
     <li><b>Figma:</b> Desenvolvimento de UI Design.</li>
     <li><b>Visual Studio Code:</b> Ambiente de Desenvolvimento Integrado (IDE).</li>
     <li><b>HTML:</b> Estruturação da página.</li>
