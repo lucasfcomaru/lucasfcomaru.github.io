@@ -58,7 +58,7 @@
 
 ### ✒️ UI Design
 
-É possível visualizar um pouco mais sobre a o design de interface clicando <a href="#" target="_blank">aqui</a>.
+É possível visualizar um pouco mais sobre a o design de interface clicando <a href="https://www.behance.net/gallery/204813803/Portfolio-Front-end">aqui</a>.
 
 ## 💻 Pré-requisitos
 
