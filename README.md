@@ -23,7 +23,6 @@
     <img src="https://skillicons.dev/icons?i=figma,vscode,html,css,js,git" />
 </p>
 <ul>
-    <img src="https://skillicons.dev/icons?i=figma" />
     <li><b>Figma:</b> Desenvolvimento de UI Design.</li>
     <li><b>Visual Studio Code:</b> Ambiente de Desenvolvimento Integrado (IDE).</li>
     <li><b>HTML:</b> Estruturação da página.</li>
@@ -32,15 +31,34 @@
     <li><b>Git:</b> Controle de versão.</li>
 </ul>
 
+### Estrutura de pastas
+
+```
+├── css #todos os arquivos de estilo
+│   ├── formacao #arquivos de estilo da página formacao
+|   |   └── styles #arquivos separados por seções da página formação
+│   ├── home #arquivos de estilo da página principal
+|   |   └── styles #arquivos separados por seções da página principal
+│   ├── utilitarios #variáveis, classes utilitárias e estilizações gerais
+├── img #imagens gerais do projeto
+│   ├── icones
+|   │   ├── geral #ícones de botões
+|   │   ├── habilidades #ícones de habilidades
+├── js #arquivos JavaScript
+│   ├── modules #arquivos individuais de cada função
+├── pages #páginas do projeto
+├── index.html #página principal
+```
+
 ## 💻 Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você tem uma máquina `<Windows / Linux / Mac>` ou um smartphone `<Android / iOS>`.
 - Você tem a versão mais recente de um dos principais navegadores `<Chrome / Firefox / Edge / Opera>` instalada.
 
-## ☕ Usando o projeto para pesquisar endereços
+## ☕ Usando o projeto
 <ul>
-    <li>Etapa 1: clique no botão iniciar para inicializar a função do cronômetro.</li>
-    <li>Etapa 2: clique no botão de pausar para pausar a contagem momentâneamente.</li>
-    <li>Etapa 3: clique no botão de parar para zerar a contagem.</li>
+    <li>Etapa 1: baixe os arquivos.</li>
+    <li>Etapa 2: abra o arquivo index.html em um navegador da sua preferência.</li>
+    <li>Etapa 3: acesse o link <a href="https://lucasfcomaru.github.io/" target="_blank"><b>https://lucasfcomaru.github.io/</b></a></li>
 </ul>
