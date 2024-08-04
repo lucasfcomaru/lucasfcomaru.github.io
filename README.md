@@ -9,18 +9,18 @@
     <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
 </p>
 
-# 📦 Portfólio
+# 📄 Portfólio
 ## 📢 Descrição do Projeto
 ### 🎯 Objetivo
 <p align="left">
-    O objetivo deste projeto é exercitar o conhecimento sobre JavaScript utilizando o método <strong>setInterval()</strong> para criar animação dos números.
+    O objetivo deste projeto é a construção de um portfólio como trabalho final para a disciplina de Fundamentos da Programação Web utilizando as linguagens: <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
 <p align="left">
     <i>O projeto tem caráter experimental e visa a prática do conhecimento.</i>
 </p>
 
 ### 🛠️ Ferramentas utilizadas
 <p>
-    <img src="https://skillicons.dev/icons?i=figma,vscode,html,css,js,git" />
+    <img src="https://skillicons.dev/icons?i=figma,vscode,html,css,js,git,github" />
 </p>
 <ul>
     <li><b>Figma:</b> Desenvolvimento de UI Design.</li>
@@ -29,26 +29,31 @@
     <li><b>CSS:</b> Estilização e diagramação do conteúdo.</li>
     <li><b>JavaScript:</b> Linguagem de programação principal.</li>
     <li><b>Git:</b> Controle de versão.</li>
+    <li><b>Github:</b> Repositório remoto.</li>
 </ul>
 
-### Estrutura de pastas
+### 📂 Estrutura de pastas
 
 ```
-├── css #todos os arquivos de estilo
-│   ├── formacao #arquivos de estilo da página formacao
-|   |   └── styles #arquivos separados por seções da página formação
-│   ├── home #arquivos de estilo da página principal
-|   |   └── styles #arquivos separados por seções da página principal
-│   ├── utilitarios #variáveis, classes utilitárias e estilizações gerais
-├── img #imagens gerais do projeto
+├── css  #todos os arquivos de estilo
+│   ├── formacao  #arquivos de estilo da página formacao
+|   |   └── styles  #arquivos separados por seções da página formação
+│   ├── home  #arquivos de estilo da página principal
+|   |   └── styles  #arquivos separados por seções da página principal
+│   ├── utilitarios  #variáveis, classes utilitárias e estilizações gerais
+├── img  #imagens gerais do projeto
 │   ├── icones
-|   │   ├── geral #ícones de botões
-|   │   ├── habilidades #ícones de habilidades
-├── js #arquivos JavaScript
-│   ├── modules #arquivos individuais de cada função
-├── pages #páginas do projeto
-├── index.html #página principal
+|   │   ├── geral  #ícones de botões
+|   │   ├── habilidades  #ícones de habilidades
+├── js  #arquivos JavaScript
+│   ├── modules  #arquivos individuais de cada função
+├── pages  #páginas do projeto
+├── index.html  #página principal
+
 ```
+
+### ✒️ UI Design
+É possível visualizar um pouco mais sobre a o design de interface clicando <a href="#" target="_blank">aqui</a>.
 
 ## 💻 Pré-requisitos
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
