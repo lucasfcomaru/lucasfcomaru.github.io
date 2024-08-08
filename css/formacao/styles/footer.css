@@ -46,10 +46,11 @@
   }
 }
 
+/* Responsividade */
 @media (max-width: 520px) {
-    .footer .footer-menu ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 26px;
-    }
+  .footer .footer-menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+  }
 }
